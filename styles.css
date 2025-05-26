@@ -1,0 +1,252 @@
+/* Шрифти */
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  color: #bc987e;
+  text-align: center;
+}
+
+/* Хедер */
+/* Хедер */
+header {
+  background-color: #fff;
+  padding: 20px 5%;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-logo {
+  height: 50px;
+  width: auto;
+}
+
+/* Меню */
+.nav-menu {
+  display: flex;
+  list-style: none; /* забирає крапки */
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.nav-menu li a.active {
+  color: #e49ca5; /* рожевий */
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Story секція */
+.story {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 10%;
+  background-color: #ffffff;
+}
+
+.story .text {
+  max-width: 50%;
+}
+
+.story img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.story-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Особливості (Grid) */
+.features {
+  padding: 40px 10%;
+  text-align: center;
+}
+
+.features .grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 0;
+  padding: 0;
+  width: 250px;
+  box-shadow: none;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  color: #bc987e;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Команда (Flex/Grid) */
+.team {
+  padding: 40px 10%;
+  text-align: center;
+}
+
+.team-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.team-card {
+  background-color: #c6da83; /* повністю зелена картка */
+  color: #000000;
+  border-radius: 15px;
+  padding: 20px;
+  width: 220px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  text-align: center;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+}
+
+.team-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  /* біла рамка навколо фото */
+  margin-bottom: 15px;
+}
+
+.team-card h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+.team-card p {
+  font-size: 14px;
+  color: #000000;
+}
+
+.custom-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: #ffffff;
+  padding: 40px 10%;
+  border-top: 8px solid #ffffff; /* світло-коричнева смужка */
+  color: #333;
+  font-size: 14px;
+}
+
+.footer-section {
+  max-width: 250px;
+}
+
+.logo-section p {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.footer-logo {
+  width: 60px;
+  height: auto;
+}
+
+.contact-section h4,
+.follow-section h4 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+.contact-section a {
+  text-decoration: none;
+  color: #333;
+}
+
+.contact-section a:hover {
+  text-decoration: underline;
+}
+.header-logo {
+  height: 50px;
+  width: auto;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+nav a.active {
+  background-color: #f7c1d9; /* ніжно-рожевий фон */
+  color: #a1633c; /* або залишити чорний */
+}
